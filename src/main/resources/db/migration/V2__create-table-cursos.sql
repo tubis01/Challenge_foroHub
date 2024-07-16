@@ -1,0 +1,6 @@
+CREATE TABLE cursos (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    categoria VARCHAR(100) NOT NULL,
+    activo BOOLEAN DEFAULT TRUE
+);

@@ -1,0 +1,8 @@
+CREATE TABLE usuarios
+(
+    id     SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email  VARCHAR(100) NOT NULL,
+    clave  VARCHAR(100) NOT NULL,
+    activo BOOLEAN DEFAULT TRUE
+)
